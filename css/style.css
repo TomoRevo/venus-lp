@@ -294,7 +294,8 @@ strong { font-weight: 600; }
 }
 
 .problems-images .container {
-  padding: 0;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .problems-img {
@@ -656,6 +657,11 @@ strong { font-weight: 600; }
    LESSON CONTENT
    ========================================== */
 .lesson-content { background: var(--c-cream); }
+
+.lesson-content .container {
+  overflow: hidden;
+  border-radius: 10px;
+}
 
 .lesson-img {
   width: 100%;
