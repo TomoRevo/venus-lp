@@ -287,11 +287,19 @@ strong { font-weight: 600; }
 .voice-note { font-size: 0.7rem !important; color: var(--c-text-sub); text-align: right; }
 
 /* ==========================================
-   PROBLEMS — 明るいまま、少しトーンを落とす
+   PROBLEMS — 画像セクション
    ========================================== */
-.problems {
-  background: var(--c-cream-deep);
-  color: var(--c-text);
+.problems-images {
+  background: var(--c-cream);
+}
+
+.problems-images .container {
+  padding: 0;
+}
+
+.problems-img {
+  width: 100%;
+  display: block;
 }
 
 .problems-dots {
@@ -647,7 +655,12 @@ strong { font-weight: 600; }
 /* ==========================================
    LESSON CONTENT
    ========================================== */
-.lesson-content { background: var(--c-cream-warm); }
+.lesson-content { background: var(--c-cream); }
+
+.lesson-img {
+  width: 100%;
+  display: block;
+}
 
 /* 合計時間 */
 .lesson-total {
