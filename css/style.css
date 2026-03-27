@@ -598,9 +598,10 @@ strong { font-weight: 600; }
 }
 
 /* ==========================================
-   INSTRUCTOR
+   INSTRUCTOR (創始者 & 講師共通)
    ========================================== */
 .instructor { background: var(--c-cream-warm); }
+.instructor-profile { background: var(--c-cream-warm); }
 
 .instructor-photo {
   border-radius: 10px;
