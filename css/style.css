@@ -180,9 +180,10 @@ strong { font-weight: 600; }
 
 .cta-lead {
   font-family: var(--font-heading);
-  font-size: 0.78rem;
-  color: var(--c-rose);
-  letter-spacing: 0.15em;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--c-pink);
+  letter-spacing: 0.08em;
   margin-bottom: 12px;
 }
 
